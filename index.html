@@ -2,25 +2,25 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <title>СервисБас</title>
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-    <header class="section_parallax d-flex flex-column text-center justify-content-center">
-        <div class="bg_parallax">
+    <header class="section-parallax">
+        <div class="bg-parallax">
         </div>
-        <div class="main_bg">
-            </div>
+        <div class="main-bg">
+        </div>
         <div class="container">
-            <div class="main_header opacity">
-                <h1 class="parallax animated fadeIn delay">Сервисбас</h1>
-            </div>
-            <div class="parallax opacity_container opacity">
-                <h2 class="main_header2 animated zoomIn delay0 faster">бассейны и фонтаны</h2>
-                <p class="description animated zoomIn delay1 faster">строительство и обслужиание в Одессе</p>
-                <p class="telephone_number animated zoomIn delay2 faster">0937305124</p>
-                <button class="button button_xl shadow-lg animated zoomIn delay3 faster" type="">получить консультацию</button>
+            <div class="main-wrap d-flex flex-column text-center justify-content-center">
+                <h1 class="main-title opacity parallax animated fadeIn delay">Сервисбас</h1>
+                <div class="parallax opacity-container opacity">
+                    <h2 class="subtitle animated zoomIn delay0 faster">бассейны и фонтаны</h2>
+                    <p class="description animated zoomIn delay1 faster">строительство и обслужиание в Одессе</p>
+                    <p class="telephone-number animated zoomIn delay2 faster">(099) 999-99-99</p>
+                    <button id="popup-btn" class="button button-xl shadow-lg animated zoomIn delay3 faster" type="">получить консультацию</button>
+                </div>
             </div>
         </div>
     </header>
@@ -28,13 +28,13 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png" alt="логотип"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="    navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="#">Главная<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="stroitelstvo.html">Строительство</a>
+                    <a class="nav-item nav-link" href="#">Строительство</a>
                     <a class="nav-item nav-link" href="#">Сервис</a>
                     <a class="nav-item nav-link" href="#">Все для бассейнов</a>
                     <a class="nav-item nav-link" href="#">Уход за водой</a>
@@ -45,117 +45,144 @@
         </div>
     </nav>
 
-    <section  class="section_header bg_blue text-center">
-        <h2>Примеры работ</h2>
-        <!--<p class="telephone_number">0937305124</p>-->
-    </section>
-
-    <section class="our_work">
+    <div  class="section-header bg-blue">
+        <h2 class="section-title text-center">Примеры работ</h2>
+    </div>
+    <div class="our-work">
         <div class="row d-flex flex-wrap">
-            <div class="pl-0 pr-0 col-6 col-md-4">
+            <div class="pl-0 pr-0 col-12 col-md-4">
                 <div class="cell">
-                    <a data-fancybox href="images/2.jpg"><img class="cell-img" src="images/2.jpg" alt="Card image">
+                    <a data-fancybox href="images/01.jpg"><img class="cell-img" src="images/01.jpg" alt="Card image">
                     </a>
                 </div>
-                <div class="cell_tittle">просмотреть</div>
+                <div class="cell-title">просмотреть</div>
             </div>
-            <div class="pl-0 pr-0 col-6 col-md-4">
+            <div class="pl-0 pr-0 col-12 col-md-4">
                 <div class="cell">
-                    <a data-fancybox href="images/1.jpg"><img class="cell-img" src="images/1.jpg" alt="Card image">
+                    <a data-fancybox href="images/02.jpg"><img class="cell-img" src="images/02.jpg" alt="Card image">
                     </a>
                 </div>
-                <div class="cell_tittle">просмотреть</div>
+                <div class="cell-title">просмотреть</div>
             </div>
-            <div class="pl-0 pr-0 col-6 col-md-4">
+            <div class="pl-0 pr-0 col-12 col-md-4">
                 <div class="cell">
-                    <a data-fancybox href="images/4.jpg"><img class="cell-img" src="images/4.jpg" alt="Card image">
+                    <a data-fancybox href="images/03.jpg"><img class="cell-img" src="images/03.jpg" alt="Card image">
                     </a>
                 </div>
-                <div class="cell_tittle">просмотреть</div>
+                <div class="cell-title">просмотреть</div>
             </div>
-            <div class="pl-0 pr-0 col-6 col-md-4">
+            <div class="pl-0 pr-0 col-12 col-md-4">
                 <div class="cell">
-                    <a data-fancybox href="images/5.jpg"><img class="cell-img" src="images/5.jpg" alt="Card image">
+                    <a data-fancybox href="images/04.jpg"><img class="cell-img" src="images/04.jpg" alt="Card image">
                     </a>
                 </div>
-                <div class="cell_tittle">просмотреть</div>
+                <div class="cell-title">просмотреть</div>
             </div>
-            <div class="pl-0 pr-0 col-6 col-md-4">
+            <div class="pl-0 pr-0 col-12 col-md-4">
                 <div class="cell">
-                    <a data-fancybox href="images/16.jpg"><img class="cell-img" src="images/16.jpg" alt="Card image">
+                    <a data-fancybox href="images/05.jpg"><img class="cell-img" src="images/05.jpg" alt="Card image">
                     </a>
                 </div>
-                <div class="cell_tittle">просмотреть</div>
+                <div class="cell-title">просмотреть</div>
             </div>
-            <div class="pl-0 pr-0 col-6 col-md-4">
+            <div class="pl-0 pr-0 col-12 col-md-4">
                 <div class="cell">
-                    <a data-fancybox href="images/19.jpg"><img class="cell-img" src="images/19.jpg" alt="Card image">
+                    <a data-fancybox href="images/06.jpg"><img class="cell-img" src="images/06.jpg" alt="Card image">
                     </a>
                 </div>
-                <div class="cell_tittle">просмотреть</div>
+                <div class="cell-title">просмотреть</div>
             </div>
         </div>
-    </section>
+    </div>
 
     <main>
-        <section class="main_text">
+        <section class="main-text section">
             <div class="container">
-                <h2 class="section_header text-center">О нас</h2>
-                <p>Сегодня всё больше людей понимают необходимость  иметь собственный бассейн и потому при проектировании нового дома стараются выделить место под  строительство бассейна.<br>Для многих строительство бассейна - это чёткое понимание того, что  даже в небольшом бассейне всегда можно зарядиться энергией, расслабиться после трудового дня и поправить своё здоровье и здоровье своих  близких.</p>
-                <h3 class="text-center">Cтроительство</h3>
-                <p>Компания «СервисБас» специализируется на строительстве и обслуживании бассейнов и фонтанов в г. Одессa начиная с 2010 года. За это время было построено немалое количество частных и городских объектов. Наши сотрудники имеют большой опыт в строительстве бассейнов и фонтанов, что позволяет нам воплощать любые идеи и пожелания заказчика в жизнь. Сделав заказ у нас на услуги по строительству или обслуживанию бассейна, вы непременно их получите. Наш подход к строительству бассейнов и фотнтанов всегда строго индивидуальный, и мы всегда стараемся максимально точно воплощать мечты наших заказчиков. Опыт нашей компании  позволяет  реализовать самые смелые желания наших заказчиков, и подстроится под любой бюджет проекта.<br>Наша компания  строит бассейны как открытого, так и закрытого типа, что в значительной мере  позволяет проявить гибкость при планировании месторасположения бассейнов. Все работы по строительству проводятся поэтапно согласно утверждённой  проектной смете. Основой для строительства служит высокопрочный армированный бетон. Отделку бассейна или фонтана можно выполнить в любом варианте. Начиная от самой недорогой и бюджетной мозаики либо ПВХ пленки, и заканчивая дорогими и презентабельными отделочными материалами. </p>
-                <h3 class="text-center">Оборудование</h3>
-                <p>"СервисБас" (Одесса) укомплектует ваш бассейн самым  современным технологичным оборудованием, от производителей известных марок:
-                    <ul>
-                        <li class="list">Pahlen</li>
-                        <li class="list">Cripsol</li>
-                        <li class="list">Hayward</li>
-                        <li class="list">Wagner</li>
-                        <li class="list">Pentair Aqua</li>
-                    </ul>
-                </p>
-                <h3 class="text-center">Обслуживание</h3>
-                <p>Наша компания предоставляет полный пакет услуг по обслуживаниею бассейнов и фонтанов в Одессе.
-                    <ul>
-                        <li class="list">Обслуживание и чистка бассейнов и фотанов</li>
+                <h2 class="section-title text-center pt-7">О нас</h2>
+                <p class="section-text">Сегодня всё больше людей понимают необходимость  иметь собственный бассейн и потому при проектировании нового дома стараются выделить место под  строительство бассейна.<br>Для многих строительство бассейна - это чёткое понимание того, что  даже в небольшом бассейне всегда можно зарядиться энергией, расслабиться после трудового дня и поправить своё здоровье и здоровье своих  близких.</p>
+                <h3 class="section-subtitle text-center">Cтроительство</h3>
+                <p class="section-text">Компания «СервисБас» специализируется на строительстве и обслуживании бассейнов и фонтанов в г. Одессa начиная с 2010 года. За это время было построено немалое количество частных и городских объектов. Наши сотрудники имеют большой опыт в строительстве бассейнов и фонтанов, что позволяет нам воплощать любые идеи и пожелания заказчика в жизнь. Сделав заказ у нас на услуги по строительству или обслуживанию бассейна, вы непременно их получите. Наш подход к строительству бассейнов и фотнтанов всегда строго индивидуальный, и мы всегда стараемся максимально точно воплощать мечты наших заказчиков. Опыт нашей компании  позволяет  реализовать самые смелые желания наших заказчиков, и подстроится под любой бюджет проекта.<br>Наша компания  строит бассейны как открытого, так и закрытого типа, что в значительной мере  позволяет проявить гибкость при планировании месторасположения бассейнов. Все работы по строительству проводятся поэтапно согласно утверждённой  проектной смете. Основой для строительства служит высокопрочный армированный бетон. Отделку бассейна или фонтана можно выполнить в любом варианте. Начиная от самой недорогой и бюджетной мозаики либо ПВХ пленки, и заканчивая дорогими и презентабельными отделочными материалами. </p>
+            </div>
+        </section>
+
+        <section class="page section">
+            <div class="container">
+                <h3 class="section-subtitle text-center">Оборудование</h3>
+                <p class="section-text">"СервисБас" (Одесса) укомплектует ваш бассейн самым  современным технологичным оборудованием, от производителей известных марок:</p>
+                <div class="row brand justify-content-lg-between align-items-center text-center">
+                    <div class="col-12 col-sm-6 col-lg-2">
+                        <div class="card wow flipInX" data-wow-delay="0.1s">
+                            <img class="card-img" src="images/pahlen.png" alt="pahlen">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-2">
+                        <div class="card wow flipInX" data-wow-delay="0.3s">
+                            <img class="card-img" src="images/kripsol.png" alt="kripsol">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-2">
+                        <div class="card wow flipInX" data-wow-delay="0.5s">
+                            <img class="card-img" src="images/hayward.png" alt="hayward">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-2">
+                        <div class="card wow flipInX" data-wow-delay="0.6s">
+                            <img class="card-img" src="images/vagner.png" alt="vagner">
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-2">
+                        <div class="card wow flipInX" data-wow-delay="0.8s">
+                            <img class="card-img mb-0" src="images/pentair.png" alt="pentair">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page section">
+            <div class="container">
+                <h3 class="section-subtitle text-center">Сервис</h3>
+                <p class="section-text">Наша компания предоставляет полный пакет услуг по обслуживаниею бассейнов и фонтанов в Одессе.
+                    <ul class="section-list">
+                        <li class="list">Обслуживание и чистка бассейнов и фонтанов</li>
                         <li class="list">Ремонт оборудования</li>
                         <li class="list">Консервация и подготовка (запуск) басейнов и фонтанов к лету</li>
                         <li class="list">Доставка на объект средств по уходу за водой</li>
                     </ul>
                 </p>
-                <h3 class="text-center">Ремонт и реконтсрукция</h3>
-                <p>Кроме этого «СервисБас» (Одесса) имеет большой опыт по реконструкции и ремонтным работам бассейнов и фонтанов. Если пришло время приоизвести ремонт мозаичного покрытия чаши, или у вас появилось желание видоизменить ваш бассейн, отремонтировать или заменить оборудование на более современное - мы готовы вам в этом  помочь, и дать новую жизнь вашему бассейну или фонтану.</p>
+                <h3 class="section-subtitle text-center">Ремонт и реконтсрукция</h3>
+                <p class="section-text">Кроме этого <card></card>«Сер<card>висБас» (Од</card>есса) имеет большой опыт по реконструкции и ремонтным работам бассейнов и фонтанов. Если пришло <card>время приоизвести</card> ремонт мозаичного покрытия чаши, или у вас появилось желание видоизменить ваш бассейн, отремонтировать или заменить оборудование на более современное - мы готовы вам в этом  помочь, и дать новую жизнь вашему бассейну или фонтану.</p>
             </div>
         </section>
     </main>
 
-    <section class="advantages">
+    <section class="advantages section">
         <div class="container">
-             <h2 class="section_header text-center">Стройте вместе с нами</h2>
-            <div class="row d-flex flex-lg-nowrap justify-content-lg-between text-center">
+            <h2 class="section-title text-center pb-7">Стройте вместе с нами</h2>
+            <div class="row justify-content-lg-between text-center">
                 <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="card">
-                        <img src="images/builder.png" alt=""><p>8 лет в строительстве</p>
+                    <div class="card wow flipInX" data-wow-delay="0.1s">
+                        <img class="mb-4" src="images/builder.png" alt=""><p class="card-text">8 лет в строительстве</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="card">
-                        <img src="images/warranty.png" alt=""><p>Гарантия 1год на оборудование</p>
+                    <div class="card wow flipInX" data-wow-delay="0.3s">
+                        <img class="mb-4" src="images/warranty.png" alt=""><p class="card-text">Гарантия 1год на оборудование</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="card">
-                        <img src="images/pump.png" alt=""><p>Материалы только от лучших производителей</p>
+                    <div class="card wow flipInX" data-wow-delay="0.5s">
+                        <img class="mb-4" src="images/pump.png" alt=""><p class="card-text">Материалы только от лучших производителей</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="card">
-                        <img src="images/hand.png" alt=""><p>Прозрачные цены</p>
+                    <div class="card wow flipInX" data-wow-delay="0.6s">
+                        <img class="mb-4" src="images/hand.png" alt=""><p class="card-text">Прозрачные цены</p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="card">
-                        <img src="images/teamwork.png" alt=""><p>Своя команда сепциалистов</p>
+                    <div class="card wow flipInX" data-wow-delay="0.8s">
+                        <img class="mb-4" src="images/teamwork.png" alt=""><p class="card-text">Своя команда сепциалистов</p>
                     </div>
                 </div>
             </div>
@@ -163,36 +190,36 @@
     </section>
 
     <footer>
-        <div class="bg_img_footer"></div>
-        <div class="bg_text_footer">
-            <div class="container">
+        <div class="footer-bg"></div>
+        <div class="footer-wrap">
+            <div class="container mob-wrap">
                 <div class="row d-flex justify-content-between">
                     <div class="col-12 col-md-4">
-                        <h4>СервисБас</h4>
-                        <p>Cтроительство и обслуживание бассейнов и фонтанов в городе Одесса</p>
+                        <h4 class="footer-title">СервисБас</h4>
+                        <p class="footer-text">Cтроительство и обслуживание бассейнов и фонтанов в городе Одесса</p>
                     </div>
                     <div class="col-12 col-md-4 ">
-                        <h4>Клиентам</h4>
+                        <h4 class="footer-title">Клиентам</h4>
                         <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Строительство</a>
+                            <li class="footer-item">
+                                <a class="footer-link" href="#">Строительство</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Обслуживание</a>
+                            <li class="footer-item">
+                                <a class="footer-link" href="#">Обслуживание</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Оборудование</a>
+                            <li class="footer-item">
+                                <a class="footer-link" href="#">Оборудованиеfooter</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Химия для бассейнов</a>
+                            <li class="footer-item">
+                                <a class="footer-link" href="#">Химия для бассейнов</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-4">
                         <address>
-                            <p class="location">г.Одесса</p>
-                            <p class="phone">0937305124</p>
-                            <p class="email">servisbas.odessa@gmail.com</p>
+                            <p class="location contacts">г.Одесса</p>
+                            <p class="phone contacts"> 99 999-99-99</p>
+                            <p class="email contacts">servisbas@gmail.com</p>
                         </address>
                     </div>
                 </div>
@@ -200,10 +227,30 @@
         </div>
         <section class="copiright text-center">
             <div class="container">
-                <p>© 2010-2018 СервисБас (Одесса)</p>
+                © 2010-2018 СервисБас (Одесса)
             </div>
         </section>
     </footer>
+
+    <div class="popup">
+        <div class="popup-content">
+            <button class="popup-clouse">&times;</button>
+            <h4 class="popup-header">Задайте свой вопрос</h4>
+            <div class="popup-form">
+                <form action="" method="" accept-charset="utf-8">
+                    <label class="popup-label" for="">ваше имя</label>
+                    <input class="form-input" type="name" name="">
+                    <label class="popup-label" for="">номер телефона</label>
+                    <input class="form-input" type="tel" name="" value="" placeholder="">
+                    <label class="popup-label" for="">электронный адресс</label>
+                    <input class="form-input" type="email" name="" value="" placeholder="">
+                    <label class="popup-label" for="">сообщение</label>
+                    <textarea class="form-input" name="" cols="30" rows="5"></textarea>
+                    <button class="button button-xl shadow-lg" type="">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
